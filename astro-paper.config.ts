@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://www.primeattest.com/tr/kilavuz",
-    title: "Attest Prime Kılavuz",
+    title: "Attest Prime",
     description: "Birleşik Krallık evrak standartları, vize süreçleri ve resmi çeviri gereksinimleri için güncel bilgi arşivi.",
     author: "MKG Labs Ltd.",
     profile: "https://www.primeattest.com", 
