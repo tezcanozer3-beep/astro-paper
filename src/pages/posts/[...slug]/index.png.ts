@@ -27,8 +27,9 @@ export const GET: APIRoute = async ({ props, url }) => {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-    const regularFont = await fetch("https://github.com/google/fonts/raw/main/ofl/archivo/Archivo-Regular.ttf").then(res => res.arrayBuffer());
-      const boldFont = await fetch("https://github.com/google/fonts/raw/main/ofl/archivo/Archivo-Bold.ttf").then(res => res.arrayBuffer());
+      const regularFont = await fetch("https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/static/Archivo-Regular.ttf").then(res => res.arrayBuffer());
+        const boldFont = await fetch("https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/static/Archivo-Bold.ttf").then(res => res.arrayBuffer());
+        
         const fonts: any[] = [
             { name: "Archivo", data: regularFont, weight: 400, style: "normal" },
                 { name: "Archivo", data: boldFont, weight: 700, style: "normal" }
