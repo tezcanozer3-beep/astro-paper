@@ -76,8 +76,8 @@ export default defineConfig({
                                                               styles: ["normal"],
                                                                 },
                                                                 ],
-                                                                
-      ]
+
+      
                                                                         
   env: {
     schema: {
