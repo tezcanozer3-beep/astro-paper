@@ -27,22 +27,14 @@ export const GET: APIRoute = async ({ props, url }) => {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-  const fonts = fontData["--font-archivo"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+    const regularFont = await fetch("https://github.com/google/fonts/raw/main/ofl/archivo/Archivo-Regular.ttf").then(res => res.arrayBuffer());
+      const boldFont = await fetch("https://github.com/google/fonts/raw/main/ofl/archivo/Archivo-Bold.ttf").then(res => res.arrayBuffer());
+        const fonts: any[] = [
+            { name: "Archivo", data: regularFont, weight: 400, style: "normal" },
+                { name: "Archivo", data: boldFont, weight: 700, style: "normal" }
+                  ];
 
-  if (regularFontPath === undefined || boldFontPath === undefined) {
-    throw new Error("Cannot find the font path.");
-  }
 
-  const [regularData, boldData] = await Promise.all([
-    fetch(experimental_getFontFileURL(regularFontPath, url)).then(res =>
-      res.arrayBuffer()
-    ),
-    fetch(experimental_getFontFileURL(boldFontPath, url)).then(res =>
-      res.arrayBuffer()
-    ),
-  ]);
 
   const svg = await satori(
     {
@@ -171,20 +163,7 @@ export const GET: APIRoute = async ({ props, url }) => {
       width: 1200,
       height: 630,
       embedFont: true,
-      fonts: [
-        {
-          name: "Google Sans Code",
-          data: regularData,
-          weight: 400,
-          style: "normal",
-        },
-        {
-          name: "Google Sans Code",
-          data: boldData,
-          weight: 700,
-          style: "normal",
-        },
-      ],
+      fonts: fonts,
     }
   );
 

@@ -6,25 +6,15 @@ import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import config from "@/config";
 
 export const GET: APIRoute = async context => {
-  const fonts = fontData["--font-archivo"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+    const regularFont = await fetch("https://github.com/google/fonts/raw/main/ofl/archivo/Archivo-Regular.ttf").then(res => res.arrayBuffer());
+      const boldFont = await fetch("https://github.com/google/fonts/raw/main/ofl/archivo/Archivo-Bold.ttf").then(res => res.arrayBuffer());
+        const fonts: any[] = [
+            { name: "Archivo", data: regularFont, weight: 400, style: "normal" },
+                { name: "Archivo", data: boldFont, weight: 700, style: "normal" }
+                  ];
 
-  if (regularFontPath === undefined || boldFontPath === undefined) {
-    throw new Error("Cannot find the font path.");
-  }
-
-  const [regularData, boldData] = await Promise.all([
-    fetch(experimental_getFontFileURL(regularFontPath, context.url)).then(res =>
-      res.arrayBuffer()
-    ),
-    fetch(experimental_getFontFileURL(boldFontPath, context.url)).then(res =>
-      res.arrayBuffer()
-    ),
-  ]);
-
-  const svg = await satori(
-    {
+                    const svg = await satori(
+                        {
       type: "div",
       props: {
         style: {
@@ -34,7 +24,7 @@ export const GET: APIRoute = async context => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Google Sans Code",
+          fontFamily: "Archivo",
         },
         children: [
           {
