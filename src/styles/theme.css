@@ -7,7 +7,7 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --font-app: var(--font-inter);
+  --font-app: "Inter", sans-serif;
 }
 
 /* Light theme values */
@@ -35,11 +35,10 @@
               
 /* Premium Başlık ve Gövde Hiyerarşisi */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-jakarta), sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
     letter-spacing: -0.025em !important;
     }
 
     body {
       letter-spacing: -0.01em;
       }
-      
