@@ -22,13 +22,14 @@
   --border: #ece9e9;
 }
 
-/* Dark theme values */
+/* Dark theme values (Attest Prime B2B) */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
-}
+  --background: #0a0d12;
+    --foreground: #e9ecf2;
+      --accent: #2e5bff;
+        --accent-foreground: #ffffff;
+          --muted: #11161d;
+            --muted-foreground: #8890a0;
+              --border: #242b36;
+              }
+              
