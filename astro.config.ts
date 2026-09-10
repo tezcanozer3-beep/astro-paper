@@ -59,15 +59,24 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
       fonts: [
-              {
-                      name: "Archivo",
-                              cssVariable: "--font-archivo",
+                  {
+                          name: "Inter",
+                                cssVariable: "--font-inter",
                                       provider: fontProviders.google(),
-                                              fallbacks: ["sans-serif"],
-                                                      weights: [400, 500, 600, 700],
-                                                              styles: ["normal", "italic"],
-                                                                    },
-                                                                        ],
+                                            fallbacks: ["sans-serif"],
+                                                  weights: [400, 500, 600],
+                                                        styles: ["normal"],
+                                                            },
+                                                                {
+                                                                      name: "Plus Jakarta Sans",
+                                                                            cssVariable: "--font-jakarta",
+                                                                                  provider: fontProviders.google(),
+                                                                                        fallbacks: ["sans-serif"],
+                                                                                              weights: [600, 700, 800],
+                                                                                                    styles: ["normal"],
+                                                                                                        },
+
+                ],
                                                                         
   env: {
     schema: {
