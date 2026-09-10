@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
-    ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
+    url: "https://www.primeattest.com/tr/kilavuz",
+    title: "Attest Prime Kılavuz",
+    description: "Birleşik Krallık evrak standartları, vize süreçleri ve resmi çeviri gereksinimleri için güncel bilgi arşivi.",
+    author: "MKG Labs Ltd.",
+    profile: "https://www.primeattest.com", 
+    ogImage: "og-image.png",
+    lang: "tr",
+    timezone: "Europe/London", // Operasyon İngiltere odaklı olduğu için
     dir: "ltr",
   },
   posts: {
@@ -23,8 +23,7 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      enabled: false,
     },
     search: "pagefind",
   },
@@ -32,7 +31,7 @@ export default defineAstroPaperConfig({
     { name: "github",   url: "https://github.com/satnaing/astro-paper" },
     { name: "x",        url: "https://x.com/username" },
     { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "mail",     url: "mailto:hello@primeattest.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
