@@ -3,7 +3,6 @@ import type { Page } from "astro";
 import type { CollectionEntry } from "astro:content";
 import IconArrowLeft from "@/assets/icons/IconArrowLeft.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
-import LinkButton from "./LinkButton.astro";
 import { useTranslations } from "@/i18n";
 
 export interface Props {
@@ -13,7 +12,7 @@ export interface Props {
 const { page } = Astro.props;
 const t = useTranslations(Astro.currentLocale);
 
-// KESİN ÇÖZÜM: Yönlendirmeyi doğrudan tam URL (Absolute Path) ile yapıyoruz.
+// KESİN ÇÖZÜM: Yönlendirmeyi doğrudan tam URL ile yapıyoruz.
 const getSafeUrl = (url: string | undefined) => {
       if (!url) return "#";
         let cleanUrl = url.replace("/tr/kilavuz", "");
@@ -24,31 +23,44 @@ const getSafeUrl = (url: string | undefined) => {
 
 {
       page.lastPage > 1 && (
-        <nav class="mt-auto mb-8 flex justify-center gap-4" role="navigation" aria-label="Pagination Navigation">
-              <LinkButton
-                      disabled={!page.url.prev}
-                              href={getSafeUrl(page.url.prev)}
-                                      class:list={["select-none", { "opacity-50": !page.url.prev }]}
-                                              aria-label={t.a11y.goToPreviousPage}
-                                                      data-astro-reload
-                                                            >
-                                                                    <IconArrowLeft class="inline-block rtl:rotate-180" />
-                                                                            {t.pagination.prev}
-                                                                                  </LinkButton>
+            <nav class="mt-auto mb-8 flex justify-center gap-4" role="navigation" aria-label="Pagination Navigation">
+                  {page.url.prev ? (
+                            <a
+                                      href={getSafeUrl(page.url.prev)}
+                                                class="group inline-block select-none hover:text-skin-accent"
+                                                          aria-label={t.a11y.goToPreviousPage}
+                                                                    data-astro-reload
+                                                                            >
+                                                                                      <IconArrowLeft class="inline-block rtl:rotate-180" />
+                                                                                                {t.pagination.prev}
+                                                                                                        </a>
+                  ) : (
+                            <span class="group inline-block select-none opacity-50" aria-label={t.a11y.goToPreviousPage}>
+                                      <IconArrowLeft class="inline-block rtl:rotate-180" />
+                                                {t.pagination.prev}
+                                                        </span>
+                  )}
 
-                                                                                        {page.currentPage} / {page.lastPage}
+                        {page.currentPage} / {page.lastPage}
 
-                                                                                              <LinkButton
-                                                                                                      disabled={!page.url.next}
-                                                                                                              href={getSafeUrl(page.url.next)}
-                                                                                                                      class:list={["select-none", { "opacity-50": !page.url.next }]}
-                                                                                                                              aria-label={t.a11y.goToNextPage}
-                                                                                                                                      data-astro-reload
-                                                                                                                                            >
-                                                                                                                                                    {t.pagination.next}
-                                                                                                                                                            <IconArrowRight class="inline-block rtl:rotate-180" />
-                                                                                                                                                                  </LinkButton>
-                                                                                                                                                                      </nav>
-                                                                                                                                                                      
+                              {page.url.next ? (
+                                        <a
+                                                  href={getSafeUrl(page.url.next)}
+                                                            class="group inline-block select-none hover:text-skin-accent"
+                                                                      aria-label={t.a11y.goToNextPage}
+                                                                                data-astro-reload
+                                                                                        >
+                                                                                                  {t.pagination.next}
+                                                                                                            <IconArrowRight class="inline-block rtl:rotate-180" />
+                                                                                                                    </a>
+                              ) : (
+                                        <span class="group inline-block select-none opacity-50" aria-label={t.a11y.goToNextPage}>
+                                                  {t.pagination.next}
+                                                            <IconArrowRight class="inline-block rtl:rotate-180" />
+                                                                    </span>
+                              )}
+                                  </nav>
       )
 }
+
+            
