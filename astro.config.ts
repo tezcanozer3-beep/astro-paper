@@ -21,6 +21,7 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: config.site.url,
+  base: '/tr/kilavuz',
   integrations: [
     mdx(),
     sitemap({
@@ -79,7 +80,7 @@ export default defineConfig({
 
       
                                                                         
-  env: {
+  env: { 
     schema: {
       PUBLIC_GOOGLE_SITE_VERIFICATION: envField.string({
         access: "public",
