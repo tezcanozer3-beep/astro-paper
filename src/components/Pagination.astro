@@ -1,8 +1,8 @@
 ---
 import type { Page } from "astro";
 import type { CollectionEntry } from "astro:content";
-import IconArrowLeft from "@assets/icons/IconArrowLeft.svg";
-import IconArrowRight from "@assets/icons/IconArrowRight.svg";
+import IconArrowLeft from "@/assets/icons/IconArrowLeft.svg";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import LinkButton from "./LinkButton.astro";
 import { useTranslations } from "@/i18n";
 
@@ -13,8 +13,7 @@ export interface Props {
 const { page } = Astro.props;
 const t = useTranslations(Astro.currentLocale);
 
-// KESİN ÇÖZÜM: Astro'nun kafasını karıştıran göreceli (relative) linkleri
-// tamamen devre dışı bırakıp, yönlendirmeyi doğrudan tam URL ile yapıyoruz.
+// KESİN ÇÖZÜM: Yönlendirmeyi doğrudan tam URL (Absolute Path) ile yapıyoruz.
 const getSafeUrl = (url: string | undefined) => {
       if (!url) return "#";
         let cleanUrl = url.replace("/tr/kilavuz", "");
