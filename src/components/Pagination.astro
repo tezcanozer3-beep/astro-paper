@@ -12,12 +12,14 @@ export interface Props {
 const { page } = Astro.props;
 const t = useTranslations(Astro.currentLocale);
 
-// KESİN ÇÖZÜM: Yönlendirmeyi doğrudan tam URL ile yapıyoruz.
+// KESİN VE NİHAİ ÇÖZÜM: Cloudflare yönlendirme hatasını (Redirect yutmasını) 
+// engellemek için URL'nin sonuna zorunlu "/" (Trailing Slash) ekliyoruz.
 const getSafeUrl = (url: string | undefined) => {
       if (!url) return "#";
         let cleanUrl = url.replace("/tr/kilavuz", "");
           if (!cleanUrl.startsWith("/")) cleanUrl = "/" + cleanUrl;
-            return "https://www.attestprime.com/tr/kilavuz" + cleanUrl;
+            if (!cleanUrl.endsWith("/")) cleanUrl = cleanUrl + "/"; // Hayat kurtaran kritik hamle!
+              return "https://www.attestprime.com/tr/kilavuz" + cleanUrl;
 };
 ---
 
@@ -62,5 +64,3 @@ const getSafeUrl = (url: string | undefined) => {
                                   </nav>
       )
 }
-
-            
