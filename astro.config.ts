@@ -76,6 +76,14 @@ export default defineConfig({
                                                           weights: [600, 700, 800],
                                                               styles: ["normal"],
                                                                 },
+                                                                {
+                                                                        name: "Anton", 
+                                                                              cssVariable: "--font-kurumsal",
+                                                                                    provider: fontProviders.google(),
+                                                                                          fallbacks: ["sans-serif"],
+                                                                                                weights: [400],
+                                                                                                      styles: ["normal"],
+                                                                                                          }
                                                                 ],
 
       
