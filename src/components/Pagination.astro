@@ -1,26 +1,34 @@
 ---
 import type { Page } from "astro";
 import type { CollectionEntry } from "astro:content";
-import IconArrowLeft from "@/assets/icons/IconArrowLeft.svg";
-import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import IconArrowLeft from "@assets/icons/IconArrowLeft.svg";
+import IconArrowRight from "@assets/icons/IconArrowRight.svg";
 import LinkButton from "./LinkButton.astro";
 import { useTranslations } from "@/i18n";
 
-type Props = {
-  page: Page<CollectionEntry<"posts">>;
-};
+export interface Props {
+      page: Page<CollectionEntry<"posts">>;
+}
 
 const { page } = Astro.props;
-
 const t = useTranslations(Astro.currentLocale);
+
+// KESİN ÇÖZÜM: Astro'nun kafasını karıştıran göreceli (relative) linkleri
+// tamamen devre dışı bırakıp, yönlendirmeyi doğrudan tam URL ile yapıyoruz.
+const getSafeUrl = (url: string | undefined) => {
+      if (!url) return "#";
+        let cleanUrl = url.replace("/tr/kilavuz", "");
+          if (!cleanUrl.startsWith("/")) cleanUrl = "/" + cleanUrl;
+            return "https://www.attestprime.com/tr/kilavuz" + cleanUrl;
+};
 ---
 
 {
-  page.lastPage > 1 && (
+      page.lastPage > 1 && (
             <nav class="mt-auto mb-8 flex justify-center gap-4" role="navigation" aria-label="Pagination Navigation">
                   <LinkButton
                           disabled={!page.url.prev}
-                                  href={page.url.prev ? "/tr/kilavuz" + page.url.prev.replace("/tr/kilavuz", "") : "#"}
+                                  href={getSafeUrl(page.url.prev)}
                                           class:list={["select-none", { "opacity-50": !page.url.prev }]}
                                                   aria-label={t.a11y.goToPreviousPage}
                                                         >
@@ -32,7 +40,7 @@ const t = useTranslations(Astro.currentLocale);
 
                                                                                           <LinkButton
                                                                                                   disabled={!page.url.next}
-                                                                                                          href={page.url.next ? "/tr/kilavuz" + page.url.next.replace("/tr/kilavuz", "") : "#"}
+                                                                                                          href={getSafeUrl(page.url.next)}
                                                                                                                   class:list={["select-none", { "opacity-50": !page.url.next }]}
                                                                                                                           aria-label={t.a11y.goToNextPage}
                                                                                                                                 >
@@ -40,7 +48,10 @@ const t = useTranslations(Astro.currentLocale);
                                                                                                                                                 <IconArrowRight class="inline-block rtl:rotate-180" />
                                                                                                                                                       </LinkButton>
                                                                                                                                                           </nav>
-                                                                                                                                                          
+      )
+}
 
-  )
+      )
+}
+}
 }
