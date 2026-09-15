@@ -3,6 +3,7 @@ title: İngiltere Vizesi İçin Evrak Tercümesi Gerçekten Zorunlu Mu?
 description: İngiltere vize başvurularında Türkçe evrak yüklemek neden risklidir? UKVI çeviri standartları ve ret almamak için bilmeniz gereken her şey.
 pubDatetime: 2026-09-15T17:51:00Z
 featured: true
+slug: ingiltere-vizesi-tercume-zorunlu-mu
 draft: false
 tags:
   - ingiltere vizesi
