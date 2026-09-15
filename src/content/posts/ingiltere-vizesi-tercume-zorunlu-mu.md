@@ -6,9 +6,9 @@ featured: true
 draft: false
 tags:
   - ingiltere vizesi
-    - ukvi
-      - sertifikalı çeviri
-      ---
+  - ukvi
+  - sertifikalı çeviri
+ ---
 
       Birçok kaynak, İngiltere vizesi için tercümenin gerekli olmadığını söylüyor. İnternetteki forumlarda veya sosyal medyada, *"Evraklarımı sadece Türkçe yükleyerek vizemi aldım"* diyenlere bile rastlayabilirsiniz. 
 
