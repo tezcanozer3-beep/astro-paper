@@ -42,7 +42,7 @@ Doğru kurumsal standartlarda yapılmış bir çeviri, vize sürecinize doğruda
 
 *   **Sıfır Şüphe:** Kurumsal kaşeli ve "Doğruluk Sertifikası" barındıran bir çeviri, memurda sahteliğe dair en ufak bir kuşku bırakmaz. Tercüme veya evrakın anlaşılamaması kaynaklı ret riskini masadan tamamen kaldırır.
 *   **Profesyonel İzlenim:** Vize memuru dosyanızı açtığında, UKVI standartlarına birebir uyumlu ve düzenli evraklar görmesi, başvurunuzun ciddiyetini artırır ve dolaylı olarak sonucu olumlu etkiler.
-*   **Maliyet Odaklılık:** Nitelikli bir çeviri hizmeti oldukça makul bir bedelle, binlerce liralık vize harcınızın ve aylar süren planlarınızın çöpe gitmesini engeller. Örneğin **Attest Prime**, belge başına £25'dan başlayan fiyatlarla belgelerinizi UKVI standartlarına %100 uyumlu şekilde çevirir.
+*   **Maliyet Odaklılık:** Nitelikli bir çeviri hizmeti oldukça makul bir bedelle, binlerce liralık vize harcınızın ve aylar süren planlarınızın çöpe gitmesini engeller. Örneğin **[Attest Prime](https://attestprime.com)**, belge başına £25'dan başlayan fiyatlarla belgelerinizi UKVI standartlarına %100 uyumlu şekilde çevirir.
 
 ## Türkiye'deki Yeminli Tercüme İngiltere'de Geçerli mi?
 
@@ -54,10 +54,10 @@ Türkiye'deki tercümanlar, ne yazık ki İngiliz makamlarının katı beklentil
 
 ## Neden Attest Prime?
 
-**Attest Prime**, doğrudan Birleşik Krallık'ta (İngiltere) kayıtlı resmi bir şirket (MKG Labs Ltd) olarak faaliyet gösterir. 
+**Attest Prime**, doğrudan Birleşik Krallık'ta (İngiltere) kayıtlı resmi bir şirket olarak faaliyet gösterir. 
 
 *   Belgelerinizi Türkiye standartlarına göre değil, doğrudan **Birleşik Krallık (UKVI) standartlarına %100 uyumlu** şekilde çeviririz.
 *   Tüm evraklar resmi şirket mühürümüzü ve imzalı Doğruluk Sertifikamızı barındırır.
-*   Üretilen çeviriler, İngiliz kurumları tarafından dijital doğrulama altyapımız sayesinde kolayca ve saniyeler içinde teyit edilebilir.
+*   Üretilen çeviriler, Birleşik Krallık makamları tarafından hem fiziksel sicil kayıtlarımız üzerinden hem de dijital doğrulama altyapımız sayesinde saniyeler içinde teyit edilebilir.
 
 İşinizi şansa bırakmayın; vizeniz sadece basit bir iletişim ve çeviri standartları problemi nedeniyle reddedilmesin. 
