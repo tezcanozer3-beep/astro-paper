@@ -8,7 +8,7 @@ function existsInPublic(filename: string): boolean {
 }
 
 /**
- * Resolves the absolute OG image path used for pages/posts.
+ * Resolves the absolute OG image path used for pages/makale.
  *
  * Security note: `site.ogImage` must be a single filename under `public/` to avoid
  * path traversal or referencing arbitrary files.
