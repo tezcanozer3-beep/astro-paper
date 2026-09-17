@@ -39,8 +39,8 @@ export default defineConfig({
   markdown: {
     processor: unified({
       remarkPlugins: [
-        remarkToc,
-        [remarkCollapse, { test: "Table of contents" }],
+        [remarkToc, { heading: "içindekiler" }],
+        [remarkCollapse, { test: "İçindekiler" }],
       ],
       rehypePlugins: [rehypeCallouts],
     }),
