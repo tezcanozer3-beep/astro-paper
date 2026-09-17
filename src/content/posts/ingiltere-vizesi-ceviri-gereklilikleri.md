@@ -1,5 +1,5 @@
 ---
-title: İngiltere Vizesi Çeviri Gereklilikleri: UKVI Ne Bekliyor?
+title: "İngiltere Vizesi Çeviri Gereklilikleri: UKVI Ne Bekliyor?"
 description: İngiltere vizesi için tercüme şartları nelerdir? Yeminli tercüme ile onaylı (certified) çeviri arasındaki farklar, sık yapılan hatalar ve UKVI standartları.
 pubDatetime: 2026-09-17T14:11:00Z
 featured: true
