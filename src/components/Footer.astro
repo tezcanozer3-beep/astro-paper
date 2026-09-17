@@ -13,14 +13,10 @@ const t = useTranslations(Astro.currentLocale);
 const currentYear = new Date().getFullYear();
 ---
 
-<footer>
-  <div class="footer-wrapper">
-      <Socials centered />
-          
-              <!-- Telif hakkı tamamen silindi, sadece yasal uyarı eklendi -->
-                  <div class="mt-6 max-w-4xl text-center text-xs leading-relaxed opacity-60">
-                        {t("footer.disclaimer")}
-                            </div>
-                              </div>
-                              </footer>
-                              
+    <!-- Yasal Uyarı Metni -->
+        <div class="mt-6 max-w-4xl text-center text-xs leading-relaxed opacity-60">
+              Bu kılavuz yalnızca bilgilendirme amaçlıdır ve Birleşik Krallık genelindeki geçerli kuralları yansıtır. Yasal tavsiye niteliğinde değildir ve profesyonel göçmenlik danışmanlığının yerini almaz. Önceki vize retleri, yasal kalış süresi aşımı veya karmaşık statü durumlarınız varsa, tercüme süreci mutlaka uzman bir dava stratejisiyle birlikte yürütülmelidir.
+                  </div>
+                    </div>
+                    </footer>
+                    
