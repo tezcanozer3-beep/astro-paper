@@ -38,10 +38,23 @@ export default defineConfig({
   },
   markdown: {
     processor: unified({
-      remarkPlugins: [
-        [remarkToc, { heading: "içindekiler" }],
-        [remarkCollapse, { test: "İçindekiler" }],
-      ],
+          remarkPlugins: [
+                  [
+                          remarkToc,
+                                  {
+                                            heading: "içindekiler|İçindekiler",
+                                                    },
+                                                          ],
+                                                                [
+                                                                        remarkCollapse,
+                                                                                {
+                                                                                          test: "İçindekiler",
+                                                                                                    summary: "İçindekiler Tablosu (Genişlet/Daralt)",
+                                                                                                            },
+                                                                                                                  ],
+                                                                                                                      ],
+                                                                                                                      
+          ]
       rehypePlugins: [rehypeCallouts],
     }),
     shikiConfig: {
