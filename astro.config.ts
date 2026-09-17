@@ -53,8 +53,8 @@ export default defineConfig({
                                                                                                             },
                                                                                                                   ],
                                                                                                                       ],
-                                                                                                                      
-          ]
+
+          
       rehypePlugins: [rehypeCallouts],
     }),
     shikiConfig: {
