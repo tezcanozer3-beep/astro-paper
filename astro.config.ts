@@ -21,7 +21,7 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: config.site.url,
-  base: '/tr/kilavuz',
+  base: '/',
   integrations: [
     mdx(),
     sitemap({
