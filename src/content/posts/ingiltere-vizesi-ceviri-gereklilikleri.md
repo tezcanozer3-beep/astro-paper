@@ -25,6 +25,9 @@ Birleşik Krallık Göçmenlik Kuralları bu konuda son derece nettir:
 
 **Vize başvurusunda sunduğunuz destekleyici evrak İngilizce veya Galce değilse, orijinal belgenin onaylı çevirisinin (Certified Translation) sağlanması [mecburidir](https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk).**
 
+
+https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk
+
 UKVI için onaylı bir çeviri; belgenin üzerinde gösterişli bir noter mührü olması anlamına gelmez. 
 
 Aslında kural oldukça basittir: **Çeviri, İçişleri Bakanlığı'nın (Home Office) doğrulayabileceği ve güvenebileceği kadar eksiksiz ve iyi belgelenmiş mi?** 
@@ -52,7 +55,7 @@ UKVI tarafından geçerli kabul edilecek bir "Sertifikalı Çeviri" (Certified T
 *   Çevirmenin tam adı ve imzası veya çeviri şirketinin yetkili temsilcisinin imzası
 *   Çevirmenin veya çeviri şirketinin iletişim bilgileri
 
-**Önemli Bir Kural Farkı (Ülke İçi vs. Ülke Dışı):**
+### Önemli Bir Kural Farkı (Ülke İçi vs. Ülke Dışı)
 
 Bu şartların, turist vizesi gibi ilk giriş izni gerektiren ve **ülke dışından** (örneğin Türkiye'den) yapılan vize başvurularında standart olarak kabul edildiği unutulmamalıdır. 
 
@@ -89,4 +92,4 @@ Kurallar, çevirinin başvurunuzdan tamamen bağımsız, profesyonel bir tercüm
 
 Doğrudan Birleşik Krallık'ta kayıtlı resmi bir şirket olarak faaliyet gösteren **[Attest Prime](https://attestprime.com/)**, belgelerinizi Türkiye standartlarına göre değil, doğrudan Birleşik Krallık (UKVI) standartlarına %100 uyumlu şekilde çevirir.
 
-Tüm evraklarınız resmi şirket mühürümüzü ve imzalı Doğruluk Sertifikamızı (Certificate of Accuracy) barındırır. Teklif formumuzu doldurarak, tamamen dijital ortamda hızla hizmet alabilirsiniz. 
+Tüm evraklarınız resmi şirket mühürümüzü ve imzalı Doğruluk Sertifikamızı (Certificate of Accuracy) barındırır.Teklif formumuzu doldurarak, tamamen dijital ortamda hızla hizmet alabilirsiniz. 
