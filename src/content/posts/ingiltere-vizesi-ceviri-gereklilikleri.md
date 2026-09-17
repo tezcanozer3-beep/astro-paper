@@ -17,7 +17,7 @@ Türkiye'de yaygın olarak bilinen "yeminli tercüme" sistemi, İngiltere makaml
 
 Çünkü İngiltere'de, Türkiye'nin aksine; bir çevirmenin noter huzurunda yemin ederek "yeminli tercüman" sıfatı kazanması gibi bir devlet uygulaması veya resmi bir "onaylı tercüman listesi" yoktur.
 
-Bunun aksine, resmi kurumlar şuna bakar: Bu belgeler eksiksiz, doğrulanabilir ve yetkili bir şirket/çevirmen tarafından doğru standartlarda paketlenmiş mi? 
+Bunun aksine, resmi kurumlar şuna bakar: **Bu belgeler eksiksiz, doğrulanabilir ve yetkili bir şirket/çevirmen tarafından doğru standartlarda paketlenmiş mi?**
 
 ## UKVI Gerçekte Ne İstiyor?
 
