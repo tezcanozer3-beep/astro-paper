@@ -16,7 +16,7 @@ const t = useTranslations(Astro.currentLocale);
 // engellemek için URL'nin sonuna zorunlu "/" (Trailing Slash) ekliyoruz.
 const getSafeUrl = (url: string | undefined) => {
       if (!url) return "#";
-        let cleanUrl = url.replace("/tr/kilavuz", "");
+        let cleanUrl = url.replace("/", "");
           if (!cleanUrl.startsWith("/")) cleanUrl = "/" + cleanUrl;
             if (!cleanUrl.endsWith("/")) cleanUrl = cleanUrl + "/"; // Hayat kurtaran kritik hamle!
               return "https://kilavuz.attestprime.com/" + cleanUrl;
