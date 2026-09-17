@@ -17,6 +17,8 @@ Ancak bu kulaktan dolma ve yanıltıcı bilgiler nedeniyle her yıl on binlerce 
 
 İşte İngiltere vize sürecinin gerçekleri.
 
+## İçindekiler
+
 ## UKVI Kuralları Ne Diyor?
 
 İngiltere İçişleri Bakanlığı (UKVI) kuralları son derece nettir: İngilizce veya Galce olmayan her türlü destekleyici evrak, belirlenmiş standartlara uygun bir **Sertifikalı Çeviri (Certified Translation)** ile birlikte sunulmalıdır.

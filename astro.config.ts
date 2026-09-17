@@ -49,7 +49,7 @@ export default defineConfig({
                                                                         remarkCollapse,
                                                                                 {
                                                                                           test: "İçindekiler",
-                                                                                                    summary: "İçindekiler Tablosu (Genişlet/Daralt)",
+                                                                                                    summary: "Konu Başlıkları",
                                                                                                             },
                                                                                                                   ],
                                                                                                                       ],
