@@ -34,9 +34,12 @@ export default {
     allPosts: "Tüm Yazılar",
   },
   footer: {
-    copyright: "Telif Hakkı",
-    allRightsReserved: "Tüm hakları saklıdır.",
-  },
+      copyright: "Telif Hakkı",
+        allRightsReserved: "Tüm hakları saklıdır.",
+          disclaimer: "Bu kılavuz yalnızca bilgilendirme amaçlıdır, yasal tavsiye niteliği taşımaz ve profesyonel Birleşik Krallık göçmenlik danışmanlığının yerini almaz. Önceki vize retleri, yasal kalış süresi aşımı veya karmaşık statü durumlarınız varsa, tercüme süreci mutlaka uzman bir dava stratejisiyle birlikte yürütülmelidir.",
+          },
+          
+  }
   pages: {
     tagTitle: "Etiket",
     tagDesc: "Bu etikete sahip tüm yazılar.",
