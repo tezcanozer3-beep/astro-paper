@@ -89,4 +89,4 @@ Kurallar, çevirinin başvurunuzdan tamamen bağımsız, profesyonel bir tercüm
 
 Doğrudan Birleşik Krallık'ta kayıtlı resmi bir şirket olarak faaliyet gösteren **[Attest Prime](https://attestprime.com/)**, belgelerinizi Türkiye standartlarına göre değil, doğrudan Birleşik Krallık (UKVI) standartlarına %100 uyumlu şekilde çevirir.
 
-Tüm evraklarınız resmi şirket mühürümüzü ve imzalı Doğruluk Sertifikamızı (Certificate of Accuracy) barındırır.Teklif formumuzu doldurarak, tamamen dijital ortamda hızla hizmet alabilirsiniz. 
+Tüm evraklarınız resmi şirket mühürümüzü ve imzalı Doğruluk Sertifikamızı (Certificate of Accuracy) barındırır. Teklif formumuzu doldurarak, tamamen dijital ortamda hızla hizmet alabilirsiniz. 
