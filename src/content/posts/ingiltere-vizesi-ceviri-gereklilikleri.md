@@ -25,9 +25,6 @@ Birleşik Krallık Göçmenlik Kuralları bu konuda son derece nettir:
 
 **Vize başvurusunda sunduğunuz destekleyici evrak İngilizce veya Galce değilse, orijinal belgenin onaylı çevirisinin (Certified Translation) sağlanması [mecburidir](https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk).**
 
-
-https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk
-
 UKVI için onaylı bir çeviri; belgenin üzerinde gösterişli bir noter mührü olması anlamına gelmez. 
 
 Aslında kural oldukça basittir: **Çeviri, İçişleri Bakanlığı'nın (Home Office) doğrulayabileceği ve güvenebileceği kadar eksiksiz ve iyi belgelenmiş mi?** 
