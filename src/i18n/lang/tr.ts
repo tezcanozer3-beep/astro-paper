@@ -38,8 +38,6 @@ export default {
         allRightsReserved: "Tüm hakları saklıdır.",
         },
 
-
-  }
   pages: {
     tagTitle: "Etiket",
     tagDesc: "Bu etikete sahip tüm yazılar.",
