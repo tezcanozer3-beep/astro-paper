@@ -19,7 +19,7 @@ const getSafeUrl = (url: string | undefined) => {
         let cleanUrl = url.replace("/tr/kilavuz", "");
           if (!cleanUrl.startsWith("/")) cleanUrl = "/" + cleanUrl;
             if (!cleanUrl.endsWith("/")) cleanUrl = cleanUrl + "/"; // Hayat kurtaran kritik hamle!
-              return "https://www.attestprime.com/tr/kilavuz" + cleanUrl;
+              return "https://kilavuz.attestprime.com/" + cleanUrl;
 };
 ---
 
