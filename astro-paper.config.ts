@@ -34,7 +34,7 @@ export default defineAstroPaperConfig({
   ],
   shareLinks: [
 
-    { name: "whatsapp", href: "https://wa.me/?text=" },
+    { name: "whatsapp", url: "https://wa.me/?text=" },
   
     { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },
 
