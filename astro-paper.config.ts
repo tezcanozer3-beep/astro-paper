@@ -30,10 +30,12 @@ export default defineAstroPaperConfig({
   socials: [
 
     { name: "mail",     url: "mailto:hello@primeattest.com" },
-    { name: "whatsapp", url: "https://wa.me/?trxt="}
+
   ],
   shareLinks: [
-    { name: "whatsapp", url: "https://wa.me/?text=" },
+
+    { name: "whatsapp", href: "https://wa.me/?text=" },
+  
     { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },
 
     { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },
